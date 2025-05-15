@@ -7,5 +7,14 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/le-centre.github.io/' // Supprimez `export default` et les accolades superflues
+  base: '/le-centre./',
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: './index.html',
+        404: './public/404.html' // Ajoutez cette ligne
+      }
+    }
+  }
 });

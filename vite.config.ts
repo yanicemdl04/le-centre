@@ -7,4 +7,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  export default {
+  base: '/<le-centre.github.io>/' // Nom de votre dépôt GitHub
+}
 });

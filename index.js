@@ -1,0 +1,1 @@
+console.log("Le Centre Restaurant - Application démarrée !");

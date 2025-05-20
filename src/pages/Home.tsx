@@ -41,7 +41,7 @@ const Home: React.FC = () => {
             <h1 className="text-4xl md:text-6xl font-serif font-bold mb-3">Le Centre</h1>
             <p className="text-xl md:text-2xl font-serif italic text-gold mb-6">TOUT MENE AU CENTRE</p>
             <p className="text-lg mb-8 max-w-2xl mx-auto">
-              Une expérience gastronomique d'exception au cœur de Gemena. Découvrez notre cuisine raffinée dans un cadre élégant et chaleureux.
+              Une expérience gastronomique d'exception au cœur de Kinshasa. Découvrez notre cuisine raffinée dans un cadre élégant et chaleureux.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <NavLink to="/menu" className="btn btn-primary">
@@ -71,7 +71,7 @@ const Home: React.FC = () => {
               <h2 className="section-title">Bienvenue au Centre</h2>
               <div className="w-20 h-1 bg-gold mb-6"></div>
               <p className="mb-4 text-lg">
-                Situé au cœur de Gemena, Le Centre est bien plus qu'un simple restaurant – c'est une destination où la gastronomie rencontre l'élégance.
+                Situé au cœur de Kinshasa, Le Centre est bien plus qu'un simple restaurant – c'est une destination où la gastronomie rencontre l'élégance.
               </p>
               <p className="mb-6">
                 Notre équipe passionnée s'engage à vous offrir une expérience culinaire inoubliable, où chaque plat raconte une histoire et chaque visite devient un moment précieux.
